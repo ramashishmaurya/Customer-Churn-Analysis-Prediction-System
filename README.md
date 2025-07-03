@@ -19,7 +19,7 @@ Customer churn refers to the phenomenon when customers stop doing business with 
 ## 🛠️ Tools & Technologies
 
 | Category       | Tools Used                                      |
-|----------------|--------------------------------------------------|
+|----------------|-------------------------------------------------- |
 | Language       | Python, SQL                                      |
 | Libraries      | pandas, numpy, scikit-learn, matplotlib, seaborn |
 | Deployment     | Streamlit, Render                                |
@@ -30,17 +30,19 @@ Customer churn refers to the phenomenon when customers stop doing business with 
 
 ## 📂 Project Structure
 
-📁 customer_churn_project/
+```text
+customer_churn_project/
 │
-├── 📁 data/ # Raw and cleaned datasets
-├── 📁 notebooks/ # EDA, modeling notebooks
-├── 📁 visuals/ # Power BI dashboard images
-├── 📁 streamlit_app/ # Streamlit app source code
-│ ├── app.py
-│ ├── model.pkl # Trained ML model
-│ └── utils.py
+├── data/              # Raw and cleaned datasets
+├── notebooks/         # EDA, modeling notebooks
+├── visuals/           # Power BI dashboard images
+├── streamlit_app/     # Streamlit app source code
+│   ├── app.py
+│   ├── model.pkl      # Trained ML model
+│   └── utils.py
 ├── requirements.txt
 └── README.md
+
 
 
 
@@ -76,7 +78,7 @@ The interactive dashboard includes:
 - Service-wise churn distribution
 - Customer segmentation by demographics
 
-![Power BI Screenshot](./visuals/powerbi_dashboard.png)
+![Power BI Screenshot](./visuals/)
 
 ---
 
